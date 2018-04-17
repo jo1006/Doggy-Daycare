@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 eclipse.preferences.version=1
 org.eclipse.jpt.core.platform=eclipselink2_5
 org.eclipse.jpt.jpa.core.discoverAnnotatedClasses=false
+=======
+eclipse.preferences.version=1
+org.eclipse.jpt.core.platform=generic2_1
+org.eclipse.jpt.jpa.core.discoverAnnotatedClasses=false
+>>>>>>> 6b0d550e2deb65049f7846710a1cc6f18702783a

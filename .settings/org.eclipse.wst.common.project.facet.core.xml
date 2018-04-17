@@ -3,6 +3,11 @@
   <fixed facet="wst.jsdt.web"/>
   <installed facet="java" version="1.8"/>
   <installed facet="wst.jsdt.web" version="1.0"/>
+<<<<<<< HEAD
   <installed facet="jpt.jpa" version="2.1"/>
   <installed facet="jst.web" version="3.1"/>
+=======
+  <installed facet="jst.web" version="3.1"/>
+  <installed facet="jpt.jpa" version="2.1"/>
+>>>>>>> 6b0d550e2deb65049f7846710a1cc6f18702783a
 </faceted-project>
