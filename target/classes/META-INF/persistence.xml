@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="Doggy-Daycare" transaction-type="RESOURCE_LOCAL">
@@ -12,3 +13,23 @@
 		</properties>
 	</persistence-unit>
 </persistence>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Doggy-Daycare" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<class>doggyDaycare.doggyDaycare.Dog</class>
+		<class>doggyDaycare.doggyDaycare.Owner</class>
+		<class>doggyDaycare.doggyDaycare.Aggression</class>
+		<class>doggyDaycare.doggyDaycare.Aggressor</class>
+		<class>doggyDaycare.doggyDaycare.Victim</class>
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/Dog?autoReconnect=true&amp;useSSL=false"/>
+			<property name="javax.persistence.jdbc.user" value="root"/>
+			<property name="javax.persistence.jdbc.password" value="Nintendo69!"/>
+			<property name="eclipselink.jdbc.native-sql" value="true"/>
+		</properties>
+	</persistence-unit>
+</persistence>
+>>>>>>> ee88b4d5e7e01df0859c0b674773d3168abec407
